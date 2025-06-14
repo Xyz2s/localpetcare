@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws & Care - Your Trusted Pet Care Partner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h1>Paws & Care</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#services"><i class="fas fa-paw"></i> Services</a></li>
+                <li><a href="#products"><i class="fas fa-shopping-bag"></i> Products</a></li>
+                <li><a href="#appointments"><i class="fas fa-calendar-alt"></i> Book Appointment</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+1234567890">(123) 456-7890</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:info@pawsandcare.com">info@pawsandcare.com</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="section active">
+                <div class="hero">
+                    <div class="hero-content">
+                        <h1>Welcome to Paws & Care</h1>
+                        <p class="hero-subtitle">Your trusted partner in providing the best care for your beloved pets since 2010</p>
+                        <div class="hero-buttons">
+                            <button class="cta-button primary" onclick="scrollToSection('appointments')">Book Now</button>
+                            <button class="cta-button secondary" onclick="scrollToSection('services')">Our Services</button>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://images.pexels.com/photos/1643457/pexels-photo-1643457.jpeg" alt="Happy pets with their owners">
+                    </div>
+                </div>
+
+                <div class="features">
+                    <div class="feature-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>24/7 Care</h3>
+                        <p>Round-the-clock attention for your pets</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>Certified Experts</h3>
+                        <p>Professional and experienced staff</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Loving Care</h3>
+                        <p>Treating your pets like family</p>
+                    </div>
+                </div>
+
+                <div class="why-choose-us">
+                    <h2>Why Choose Paws & Care?</h2>
+                    <div class="reasons-grid">
+                        <div class="reason-card">
+                            <div class="reason-icon">
+                                <i class="fas fa-stethoscope"></i>
+                            </div>
+                            <h3>Expert Veterinary Care</h3>
+                            <p>Our team of certified veterinarians provides comprehensive medical care for your pets.</p>
+                        </div>
+                        <div class="reason-card">
+                            <div class="reason-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>Safe & Secure</h3>
+                            <p>State-of-the-art facilities with 24/7 monitoring and security.</p>
+                        </div>
+                        <div class="reason-card">
+                            <div class="reason-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3>Premium Services</h3>
+                            <p>Luxury grooming, boarding, and specialized care services.</p>
+                        </div>
+                        <div class="reason-card">
+                            <div class="reason-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Experienced Team</h3>
+                            <p>Our staff has years of experience in pet care and handling.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonials">
+                    <h2>What Our Clients Say</h2>
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"The best pet care service I've ever used. My dog loves coming here!"</p>
+                                <div class="testimonial-author">
+                                    <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="Sarah Johnson">
+                                    <div class="author-info">
+                                        <h4>Sarah Johnson</h4>
+                                        <p>Dog Owner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"Professional service and amazing care for my cats. Highly recommended!"</p>
+                                <div class="testimonial-author">
+                                    <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="Michael Brown">
+                                    <div class="author-info">
+                                        <h4>Michael Brown</h4>
+                                        <p>Cat Owner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <div class="cta-content">
+                        <h2>Ready to Give Your Pet the Best Care?</h2>
+                        <p>Book an appointment today and experience the Paws & Care difference!</p>
+                        <button class="cta-button primary" onclick="scrollToSection('appointments')">Book Your Appointment</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section id="services" class="section">
+                <h2>Our Premium Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="https://images.pexels.com/photos/7516363/pexels-photo-7516363.jpeg" alt="Pet Grooming">
+                        <div class="service-content">
+                            <i class="fas fa-cut"></i>
+                            <h3>Professional Grooming</h3>
+                            <p>Full-service grooming including bathing, haircuts, nail trimming, and ear cleaning. We use only pet-safe, hypoallergenic products.</p>
+                            <ul class="service-features">
+                                <li>Bath & Blow Dry</li>
+                                <li>Haircut & Styling</li>
+                                <li>Nail Trimming</li>
+                                <li>Ear Cleaning</li>
+                            </ul>
+                            <button class="service-button" onclick="scrollToSection('appointments')">Book Grooming</button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.pexels.com/photos/7516364/pexels-photo-7516364.jpeg" alt="Veterinary Care">
+                        <div class="service-content">
+                            <i class="fas fa-heartbeat"></i>
+                            <h3>Veterinary Care</h3>
+                            <p>Comprehensive medical care for your pets, including regular check-ups, vaccinations, and emergency services.</p>
+                            <ul class="service-features">
+                                <li>Regular Check-ups</li>
+                                <li>Vaccinations</li>
+                                <li>Dental Care</li>
+                                <li>Emergency Services</li>
+                            </ul>
+                            <button class="service-button" onclick="scrollToSection('appointments')">Book Check-up</button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://images.pexels.com/photos/1643456/pexels-photo-1643456.jpeg" alt="Pet Boarding">
+                        <div class="service-content">
+                            <i class="fas fa-home"></i>
+                            <h3>Luxury Boarding</h3>
+                            <p>Comfortable and safe boarding facilities with individual attention and daily exercise routines.</p>
+                            <ul class="service-features">
+                                <li>Spacious Suites</li>
+                                <li>Daily Exercise</li>
+                                <li>24/7 Supervision</li>
+                                <li>Special Diet Options</li>
+                            </ul>
+                            <button class="service-button" onclick="scrollToSection('appointments')">Book Boarding</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Products Section -->
+            <section id="products" class="section">
+                <h2>Premium Pet Products</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.pexels.com/photos/3658120/pexels-photo-3658120.jpeg" alt="Premium Pet Food">
+                            <div class="product-overlay">
+                                <span class="product-tag">Best Seller</span>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Royal Canin Premium Food</h3>
+                            <p>High-quality nutrition for your pets</p>
+                            <div class="product-details">
+                                <div class="product-price">$49.99</div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>(4.5)</span>
+                                </div>
+                            </div>
+                            <button class="book-button" onclick="scrollToSection('appointments')">Book Consultation</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.pexels.com/photos/4587958/pexels-photo-4587958.jpeg" alt="Interactive Pet Toys">
+                            <div class="product-overlay">
+                                <span class="product-tag">New</span>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Interactive Pet Toys</h3>
+                            <p>Engaging toys for mental stimulation</p>
+                            <div class="product-details">
+                                <div class="product-price">$24.99</div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(5.0)</span>
+                                </div>
+                            </div>
+                            <button class="book-button" onclick="scrollToSection('appointments')">Book Consultation</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://petspark.pk/cdn/shop/collections/71qV3F_828L._AC_SL1000_1200x1200.jpg?v=1692034113A" alt="Designer Pet Accessories">
+                            <div class="product-overlay">
+                                <span class="product-tag">Popular</span>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Designer Pet Accessories</h3>
+                            <p>Stylish and comfortable accessories</p>
+                            <div class="product-details">
+                                <div class="product-price">$34.99</div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(4.0)</span>
+                                </div>
+                            </div>
+                            <button class="book-button" onclick="scrollToSection('appointments')">Book Consultation</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Appointments Section -->
+            <section id="appointments" class="section">
+                <h2>Book an Appointment</h2>
+                <div class="appointment-container">
+                    <div class="appointment-info">
+                        <h3>Why Choose Us?</h3>
+                        <ul>
+                            <li>✓ Experienced professionals</li>
+                            <li>✓ State-of-the-art facilities</li>
+                            <li>✓ Flexible scheduling</li>
+                            <li>✓ Emergency services available</li>
+                        </ul>
+                        <img src="https://images.pexels.com/photos/7516363/pexels-photo-7516363.jpeg" alt="Happy pet with groomer" class="appointment-image">
+                    </div>
+                    <form class="appointment-form">
+                        <div class="form-group">
+                            <label for="name">Pet Owner Name</label>
+                            <input type="text" id="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="pet-name">Pet Name</label>
+                            <input type="text" id="pet-name" required placeholder="Enter your pet's name">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Type</label>
+                            <select id="service" required>
+                                <option value="">Select a service</option>
+                                <option value="grooming">Grooming</option>
+                                <option value="vet">Veterinary Care</option>
+                                <option value="boarding">Boarding</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Preferred Time</label>
+                            <input type="time" id="time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">Special Notes</label>
+                            <textarea id="notes" placeholder="Any special requirements or notes"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Book Appointment</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <h2>About Paws & Care</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://images.pexels.com/photos/1643457/pexels-photo-1643457.jpeg" alt="Our team with pets">
+                    </div>
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Founded in 2010, Paws & Care has been providing exceptional pet care services to the community for over a decade. Our mission is to ensure that every pet receives the love, care, and attention they deserve.</p>
+                        
+                        <h3>Our Team</h3>
+                        <p>Our team consists of certified professionals with years of experience in pet care. We regularly undergo training to stay updated with the latest pet care techniques and best practices.</p>
+                        
+                        <h3>Our Facility</h3>
+                        <p>Our state-of-the-art facility is designed to provide a comfortable and safe environment for your pets. We maintain the highest standards of cleanliness and safety.</p>
+                        
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-number">5000+</span>
+                                <span class="stat-label">Happy Pets</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">13</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Expert Staff</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2>Contact Us</h2>
+                <div class="contact-page-info">
+                    <div class="contact-details">
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Visit Us</h3>
+                            <p>123 Pet Street, Pet City</p>
+                            <p>New York, NY 10001</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-phone"></i>
+                            <h3>Call Us</h3>
+                            <p>Main: (555) 123-4567</p>
+                            <p>Emergency: (555) 987-6543</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>info@pawsandcare.com</p>
+                            <p>support@pawsandcare.com</p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-clock"></i>
+                            <h3>Business Hours</h3>
+                            <p>Mon-Fri: 8:00 AM - 8:00 PM</p>
+                            <p>Sat-Sun: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input type="text" id="contact-subject" required placeholder="Enter subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
